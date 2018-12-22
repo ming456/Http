@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="com.lzw.model.Obj_gys" table="tb_gys_jbqkb" >
+        <id name="gysbh" type="string">
+            <column name="gysbh" length="20" />
+            <generator class="assigned" />
+        </id>
+        <property name="gysmc" type="string">
+            <column name="gysmc" length="80" />
+        </property>
+        <property name="pym" type="string">
+            <column name="pym" length="10" />
+        </property>
+        <property name="gysdz" type="string">
+            <column name="gysdz" length="80" />
+        </property>
+        <property name="ssdq" type="string">
+            <column name="ssdq" length="40" />
+        </property>
+        <property name="yzbm" type="string">
+            <column name="yzbm" length="10" />
+        </property>
+        <property name="tel" type="string">
+            <column name="tel" length="20" />
+        </property>
+        <property name="lxr" type="string">
+            <column name="lxr" length="10" />
+        </property>
+        <property name="khyh" type="string">
+            <column name="khyh" length="40" />
+        </property>
+        <property name="khzh" type="string">
+            <column name="khzh" length="20" />
+        </property>
+    </class>
+</hibernate-mapping>

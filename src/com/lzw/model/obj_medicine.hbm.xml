@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.lzw.model.obj_medicine" table="tb_medicine_jbqkb">
+        <id name="ypbh" type="string">
+            <column name="ypbh" length="20" />
+            <generator class="assigned" />
+        </id>
+
+        <property name="yptm" type="string">
+            <column name="yptm" length="20" />
+        </property>
+        <property name="ypmc" type="string">
+            <column name="ypmc" length="80" />
+        </property>
+        <property name="pym" type="string">
+            <column name="pym" length="10" />
+        </property>
+        <property name="tym" type="string">
+            <column name="tym" length="10" />
+        </property>
+        <property name="dw" type="string">
+            <column name="dw" length="4" />
+        </property>
+        <property name="gg" type="string">
+            <column name="gg" length="20" />
+        </property>
+        <property name="jx" type="string">
+            <column name="jx" length="10" />
+        </property>
+        <property name="cd" type="string">
+            <column name="cd" length="20" />
+        </property>
+        <property name="bzsl" type="int">
+            <column name="bzsl" />
+        </property>
+        <property name="yxq" type="string">
+            <column name="yxq" length="23" />
+        </property>
+        <property name="zlbz" type="string">
+            <column name="zlbz" length="20" />
+        </property>
+        <property name="jyfs" type="string">
+            <column name="jyfs" length="8" />
+        </property>
+        <property name="ph" type="string">
+            <column name="ph" length="10" />
+        </property>
+        <property name="lsjg" type="double">
+            <column name="lsjg" precision="2" scale="0" />
+        </property>
+        <property name="jhjg" type="double">
+            <column name="jhjg" precision="2" scale="0" />
+        </property>
+        <property name="pfjg" type="double">
+            <column name="pfjg" precision="2" scale="0" />
+        </property>
+        <property name="yplb" type="string">
+            <column name="yplb" length="8" />
+        </property>
+        <property name="ylbh" type="string">
+            <column name="ylbh" length="10" />
+        </property>
+     </class>
+
+</hibernate-mapping>

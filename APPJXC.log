@@ -1,0 +1,3 @@
+Hibernate: select obj_userna0_.userid as userid9_, obj_userna0_.username as username9_, obj_userna0_.password as password9_, obj_userna0_.passconf as passconf9_ from tb_username obj_userna0_ where obj_userna0_.userid='mr'
+e.getActionCommand() = 供应商情况;EventName = JF_view_gys
+e.getActionCommand() = JB_EXIT;EventName = 
